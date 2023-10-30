@@ -1,5 +1,5 @@
 # Specify the base image for the environment
-FROM mhubai/base:latest
+FROM vamsithiriveedhi/mhubai_base:latest
 
 # FIXME: set this environment variable as a shortcut to avoid nnunet crashing the build
 # by pulling sklearn instead of scikit-learn

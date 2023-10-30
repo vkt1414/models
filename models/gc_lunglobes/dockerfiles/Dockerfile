@@ -1,4 +1,4 @@
-FROM mhubai/base:latest
+FROM vamsithiriveedhi/mhubai_base:latest
 
 # Update authors label
 LABEL authors="s.vandeleemput@radboudumc.nl,dbontempi@bwh.harvard.edu,lnuernberg@bwh.harvard.edu"

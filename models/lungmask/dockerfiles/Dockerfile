@@ -1,4 +1,4 @@
-FROM mhubai/base:latest
+FROM vamsithiriveedhi/mhubai_base:latest
 
 # Install LungMask
 RUN pip3 install --no-cache-dir \

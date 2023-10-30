@@ -1,6 +1,6 @@
 # Specify the base image for the environment
-FROM ubuntu:20.04
-
+#FROM ubuntu:20.04
+FROM nvidia/cuda:12.2.2-runtime-ubuntu20.04
 # Authors of the image
 LABEL authors="lnuernberg@bwh.harvard.edu,dbontempi@bwh.harvard.edu"
 
