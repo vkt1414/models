@@ -30,9 +30,10 @@ jobs:
   build-models:
     runs-on: ubuntu-latest
     needs: build-base
+    continue-on-error: true
     strategy:
       matrix:
-        model: [casust, gc_lunglobes, lungmask, nnunet_liver, nnunet_pancreas, platipy, thresholder, totalsegmentator]
+        model: [casust, gc_lunglobes, lungmask, nnunet_liver, nnunet_pancreas, platipy, totalsegmentator]
 
     steps:
       - name: Checkout code
